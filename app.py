@@ -6,6 +6,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import pickle
+import os
 
 
 app = Flask(__name__)
@@ -69,4 +70,5 @@ def index():
     return render_template("index.html", result=result)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000)) 
+    app.run(host="0.0.0.0", port=port)
