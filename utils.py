@@ -8,7 +8,21 @@ SUSPICIOUS_WORDS = ["free", "win", "winner", "prize", "congratulations", "click 
     "financial freedom", "cheap", "save big", "call now", "extra income", "hidden charges",
     "investment", "no strings attached", "instant", "double your income", "pre-approved",
     "no obligation", "why pay more?", "unsecured", "access now", "zero cost", "lose weight fast",
-    "miracle", "cure", "viagra", "buy now", "hot deal", "great offer", "act immediately"]
+    "miracle", "cure", "viagra", "buy now", "hot deal", "great offer", "act immediately", "grátis", "ganhar", "vencedor", "prêmio", "parabéns", "clique aqui", 
+    "exclusivo", "agir agora",
+    "oferta", "imperdível", "tempo limitado", "promoção", "oferta", "guarantee", "100% grátis",
+    "ganhe agora", "dinheiro fácil", "faça dinheiro", "renda extra", "sem investimento",
+    "lucro rápido", "apenas hoje", "oferta limitada", "receba em casa", "ganhe prêmios", "você foi selecionado",
+    "jackpot", "ganhe dinheiro dormindo", "você ganhou", "prêmio garantido", "desconto exclusivo", "urgente",
+    "responda agora", "última chance", "corra", "não perca", "imediatamente",
+    "clique já", "agora mesmo", "acesse o link", "verifique sua conta", "atualize suas informações", "dados comprometidos",
+    "conta suspensa", "confirme seus dados", "problemas com sua conta", "reative agora", "segurança da conta", "incrível", "sensacional",
+                   "milagre", "fórmula secreta", "exclusivo", "garantido", "comprovado", "testado", "surpreendente",
+    "apenas hoje", "gratis", "100% gratis", "premio", "parabens",
+    "promoçao", "dinheiro facil", "lucro rapido", "ganhe premios", "voce foi selecionado", "voce ganhou",
+    "premio garantido", "ultima chance", "nao perca", "clique ja", "atualize suas informaçoes", "incrivel",
+    "barato", "barata", "perca peso facil", "perca peso fácil", "perca peso rapido",
+    "perca peso rápido", "milagre", "zero custo", "custo nenhum", "nenhum custo"]
 KNOWN_SENDERS = ["no-reply@google.com", "notifications@github.com", "newsletter@nytimes.com", "no-reply@accounts.spotify.com", "info@linkedin.com", "updates@medium.com", "no-reply@apple.com", "security@facebookmail.com", "orders@amazon.com", "support@microsoft.com", "chefe234@gmail.com", "eduardocarlos345674@gmail.com"]
 
 def extract_links(text):
